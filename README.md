@@ -8,15 +8,20 @@ The project demonstrates a clear LangGraph pattern:
 
 ```
 [Support Ticket]
-      |
-      v
+|
+
 receive_ticket
       |
+      
       +--> classify_ticket_intent -----+
+      
       +--> analyze_customer_sentiment -+--> choose_support_route
+      
       +--> estimate_technical_impact --+          |
+                                             
                                              conditional
                                           /              \
+                              
                               standard_support_response  escalated_support_response
                                           |                          |
                                          END                        END
