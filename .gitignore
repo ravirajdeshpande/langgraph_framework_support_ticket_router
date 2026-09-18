@@ -1,0 +1,6 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.vscode/
+LANGGRAPH_TEACHING_GUIDE.md
