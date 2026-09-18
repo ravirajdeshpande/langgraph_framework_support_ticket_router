@@ -7,10 +7,15 @@ and routes it to the right handling path.
 The project demonstrates a clear LangGraph pattern:
 
 ```
-[Support Ticket]
-|
 
-receive_ticket
+
+
+
+[Support Ticket] 
+      
+      |
+receive_ticket    
+      
       |
       
       +--> classify_ticket_intent -----+
